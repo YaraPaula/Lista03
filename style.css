@@ -1,105 +1,154 @@
-.nav a{
-    color: rgb(15, 20, 25);
-    text-decoration: none;
+.nav a {
+  color: rgb(15, 20, 25);
+  text-decoration: none;
 }
-.nav a:hover{
-   color: rgb(15, 20, 25);
+.nav a:hover {
+  color: rgb(15, 20, 25);
 }
-.estatistica a{
-   color: rgb(83, 100, 113);
-   text-decoration: none;
-}
-
-.estatistica a:hover{
-   color: rgb(83, 100, 113);
-   text-decoration: underline;
+.estatistica a {
+  color: rgb(83, 100, 113);
+  text-decoration: none;
 }
 
-.estatistica b{
-   color: rgb(15, 20, 25);
+.estatistica a:hover {
+  color: rgb(83, 100, 113);
+  text-decoration: underline;
 }
 
-.pub a{
-   color: rgb(83, 100, 113);
-   text-decoration: none;
-
-}
-.pub a:hover{
-   color: rgb(83, 100, 113);
-   text-decoration: none;
-   background-color: rgba(0,0,0,0.03);
+.estatistica b {
+  color: rgb(15, 20, 25);
 }
 
-.tzeet h6:hover{
-   background-color: rgba(0,0,0,0.03);
+.pub a {
+  color: rgb(83, 100, 113);
+  text-decoration: none;
+}
+.pub a:hover {
+  color: rgb(83, 100, 113);
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.03);
 }
 
-.r a:hover{
-   color: rgb(29, 155, 240);
-   text-decoration: none;
-}
-.r i:hover{
-   background-color: rgba(29, 155, 240, 0.1);
-   border-radius: 5px;
+.tzeet h6:hover {
+  background-color: rgba(0, 0, 0, 0.03);
 }
 
-.t a:hover{
-    background-color: rgba(15, 25, 20);
-    border-radius: 5px;
- }
+.r a:hover {
+  color: rgb(29, 155, 240);
+  text-decoration: none;
+}
+.r i:hover {
+  background-color: rgba(29, 155, 240, 0.1);
+  border-radius: 5px;
+}
 
-.e a:hover{
-   color: rgb(0, 186, 124);
-   text-decoration: none;
+.e a:hover {
+  color: rgb(0, 186, 124);
+  text-decoration: none;
 }
-.e i:hover{
-   background-color: rgba(0, 186, 124, 0.1);
-   border-radius: 5px;
+.e i:hover {
+  background-color: rgba(0, 186, 124, 0.1);
+  border-radius: 5px;
 }
-.l a:hover{
-   color: rgb(249, 24, 128);
-   text-decoration: none;
+.l a:hover {
+  color: rgb(249, 24, 128);
+  text-decoration: none;
 }
-.l i:hover{
-   background-color: rgba(249, 24, 128, 0.1);
-   border-radius: 5px;
+.l i:hover {
+  background-color: rgba(249, 24, 128, 0.1);
+  border-radius: 5px;
 }
 .nav li {
-   padding: 10px;
-   list-style-type: none;
+  padding: 10px;
+  width: 145px;
+  list-style-type: none;
 }
-.nav li:hover{
-   background-color: rgb(15, 25, 20, 0.1);
-   border-radius: 20px;
-   width: 200px;
+.nav li:hover {
+  background-color: rgb(15, 25, 20, 0.1);
+  border-radius: 20px;
+  width: 145px;
 }
-.nav img{
-   padding: 5px;
+.nav img {
+  padding: 5px;
 }
-.gray{
-   background-color: rgb(239, 243, 244);
+.gray {
+  background-color: rgb(239, 243, 244);
 }
 .image-container {
-   justify-content: space-between;
+  justify-content: space-between;
 }
-.image-container button{
-   width: 70px;
-   height: 40px;
-   border-radius: 20px;
-}
-
-.nav button{
-   border-radius: 20px;
+.image-container button {
+  width: 70px;
+  height: 40px;
+  border-radius: 20px;
 }
 
-font{
-   color: rgb(83,100,113);
+.nav button {
+  border-radius: 20px;
+}
+
+font {
+  color: rgb(83, 100, 113);
 }
 
 .centralizado {
-   text-align: center;
+  text-align: center;
 }
 
-.justificado{
-   text-align:justify-all;
+.profileContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.tzeetsMenuContainer {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tzeetsMenuSubContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.tzeetsMenuSubContainer a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  text-decoration: none;
+  color: rgb(83, 100, 113);
+}
+
+.tzeetsMenuSubContainer a:hover {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.tzeetsRowIcons {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tzeetsRowIcons:hover {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.tzeetsRowIconsSub {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
